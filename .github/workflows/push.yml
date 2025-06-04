@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display greeting
-        run: exit 1
+        run: echo "Now it should work!"

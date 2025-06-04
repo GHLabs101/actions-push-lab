@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display greeting
-        run: echo "🎉 Workflow triggered by a push to main!"
+        run: exit 1
